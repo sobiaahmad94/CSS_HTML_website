@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CC Travel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+        <div id="logo">CODECLAN<span>COSMOS</span></div>   
+        <nav>
+            <ul>
+                <li class="hover-list">
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">Book</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header-end -->
+    <main>
+        <!-- where-togo-start  -->
+        <section class="where-to-go">
+            <img class="main-img" src="/images/main-astro-img.png" alt="spaceman">
+            <form class="search-form" action="#">
+                <h3>Where do you want to go?</h3>
+                
+                    <input class="input-field" type="text" placeholder="Where to go?">
+                
+                
+                    <input class="input-field" type="date" id="datepicker" placeholder="Date">
+                
+                
+                    <select class="input-field" class="nice-select">
+                        <option disabled selected>Travel Type</option>
+                        <option value="1">Rocket</option>
+                        <option value="2">Shuttle</option>
+                    </select>
+                
+                
+                    <button class="input-field" class="input-field" class="search-btn" type="submit">Search</button>
+                
+            </form>
+        </section>
+        <!-- where-togo-end  -->
+
+        <!-- popular-destination-start  -->
+        <article class="popular">
+
+            <div class="section-title">
+                <h3 class="popular-destinations-heading">Popular Destinations</h3>
+            </div>
+
+            <article class="container row">
+                <div class="single-destination">
+                    <img src="img/destination/brazil.png" alt="Mars">
+                </div>
+                <div class="single-destination">
+                    <img src="img/destination/brazil.png" alt="Saturn">
+                </div>
+                <div class="single-destination">
+                    <img src="img/destination/america.png" alt="Earth">
+                </div>
+                <div class="single-destination">
+                    <img src="img/destination/nepal.png" alt="Jupiter">
+                </div>
+                <div class="single-destination">
+                    <img src="img/destination/maldives.png" alt="Venus">
+                </div>
+                <div class="single-destination">
+                    <img src="img/destination/indonesia.png" alt="Neptune">
+                </div>
+            </article>
+        </article>
+        <!-- popular-destination-end  -->
+
+        <section class="popular">
+
+            <article class="container row">
+                <div class="single-destination-text">
+                    <a href="">
+                        <h3>Mars</h3>
+                    </a>
+                    <p>The red planet.</p>
+                </div>
+
+                <div class="single-destination-text">
+                    <a href="">
+                        <h3>Saturn</h3>
+                    </a>
+                    <p>If you like it then put a ring on it like Beyonce... Hope you're having a great SATURNday!</p>
+                </div>
+
+                <div class="single-destination-text">
+                    <a href="">
+                        <h3>Earth</h3>
+                    </a>
+                    <p>It's free because you're already here...</p>
+                </div>
+
+                <div class="single-destination-text">
+                    <a href="">
+                        <h3>The Moon</h3>
+                    </a>
+                    <p>You might not be the first person on the moon but you can most definitely be the next.</p>
+                </div>
+
+                <div class="single-destination-text">
+                    <a href="">
+                        <h3>Neptune</h3>
+                    </a>
+                    <p>Hope you listen to some great atmospheric tunes here.</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- testimonials  -->
+        <section class="testimonial-area">
+            <article class="container row">
+                <div class="row">
+                    <div class="single-testmonial">
+                        <div class="author-thumb">
+                            <img src="img/testmonial/author.png" alt="">
+                        </div>
+                        <p>"I'm going to bring Aunt May with me next time."</p>
+                        <div class="testmonial-author">
+                            <h3>- Spider-Man</h3>
+                            <h4>Superhero from Queens.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="single-testmonial">
+                        <div class="author-thumb">
+                            <img src="img/testmonial/author.png" alt="">
+                        </div>
+                        <p>"You're a wizard, Harry! The planets are magical!"</p>
+                        <div class="testmonial-author">
+                            <h3>- Hagrid</h3>
+                            <h4>A friendly quiet from Hogwarts.</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="single-testmonial">
+                        <div class="author-thumb">
+                            <img src="img/testmonial/author.png" alt="">
+                        </div>
+                        <p>"There shall be no giggling in the lair of Mojo. Saturn, I've had it with your sassy mouth!"</p>
+                        <div class="testmonial-author">
+                            <h3>- Mojo Jojo</h3>
+                            <h4>The City of Townswell, The Powerpuff Girls</h4>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container row footer-area">
+            <h3>
+                <div class="logo">CODECLAN<span class="footer-logo">COSMOS</span></div> 
+            </h3>
+            <div class="footer-widget">
+                <ul class="links">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <p class="footer-p">123 Fake Street, <br> Edinburgh, EH1 2BC<br>
+                    <a class="footer-a" href="#">0131 234 9734</a> <br>
+                    <a class="footer-a" href="#">contact@codeclancosmostravel.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
